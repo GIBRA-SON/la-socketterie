@@ -1,0 +1,119 @@
+.account {
+  padding: 80px 0;
+}
+
+.account__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.account__header {
+  margin-bottom: 40px;
+}
+
+.account__subtitle {
+  margin-bottom: 12px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.account__header h1 {
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+
+.account__header p {
+  color: #666666;
+}
+
+.account__welcome {
+  margin-bottom: 40px;
+  padding: 30px;
+
+  background-color: #f3f0ea;
+}
+
+.account__welcome h2 {
+  margin-bottom: 15px;
+}
+
+.account__welcome p {
+  margin-bottom: 8px;
+}
+
+.account__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.account__card {
+  padding: 30px;
+
+  border: 1px solid #eeeeee;
+
+  transition: border-color 0.2s;
+}
+
+.account__card:hover {
+  border-color: #222222;
+}
+
+.account__icon {
+  display: block;
+  margin-bottom: 20px;
+
+  font-size: 30px;
+}
+
+.account__card h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.account__card p {
+  color: #666666;
+  line-height: 1.5;
+}
+
+.account__logout {
+  margin-top: 40px;
+
+  padding: 14px 24px;
+
+  border: 1px solid #222222;
+  background-color: #ffffff;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.account__button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 24px;
+
+  background-color: #222222;
+  color: #ffffff;
+
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .account {
+    padding: 50px 0;
+  }
+
+  .account__header h1 {
+    font-size: 38px;
+  }
+
+  .account__grid {
+    grid-template-columns: 1fr;
+  }
+}

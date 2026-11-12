@@ -1,0 +1,93 @@
+.register {
+  padding: 80px 0;
+}
+
+.register__container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.register__header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.register__subtitle {
+  margin-bottom: 12px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.register__header h1 {
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+
+.register__header p {
+  color: #666666;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.register__group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.register__group input {
+  padding: 14px;
+  border: 1px solid #dddddd;
+  font-size: 16px;
+}
+
+.register__button {
+  padding: 16px;
+
+  border: none;
+
+  background-color: #222222;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .register {
+    padding: 50px 0;
+  }
+
+  .register__header h1 {
+    font-size: 38px;
+  }
+}
+
+.register__error {
+  color: #b42318;
+  background-color: #fef3f2;
+  border: 1px solid #fecdca;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.register__button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,30 @@
+# Dépendances Node.js
+node_modules/
+
+# Variables d'environnement et clés secrètes
+.env
+.env.*
+!.env.example
+
+# Fichiers générés
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Fichiers temporaires
+tmp/
+temp/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/

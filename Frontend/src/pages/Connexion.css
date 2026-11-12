@@ -1,0 +1,102 @@
+.login {
+  padding: 80px 0;
+}
+
+.login__container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.login__header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.login__subtitle {
+  margin-bottom: 12px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.login__header h1 {
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+
+.login__header p {
+  color: #666666;
+  line-height: 1.6;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.login__group input {
+  padding: 14px;
+
+  border: 1px solid #dddddd;
+
+  font-size: 16px;
+}
+
+.login__button {
+  padding: 16px;
+
+  border: none;
+
+  background-color: #222222;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.login__register {
+  margin-top: 30px;
+
+  padding-top: 25px;
+
+  border-top: 1px solid #eeeeee;
+
+  text-align: center;
+}
+
+.login__register p {
+  margin-bottom: 10px;
+  color: #666666;
+}
+
+.login__register a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .login {
+    padding: 50px 0;
+  }
+
+  .login__header h1 {
+    font-size: 38px;
+  }
+}
